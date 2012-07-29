@@ -1,24 +1,30 @@
-# holman does dotfiles
+# sechilds' version of holman does dotfiles
 
 ## dotfiles
 
-Your dotfiles are how you personalize your system. These are mine. The very
+Check out the [orignal repository](https://github.com/holman/dotfiles):
+
+>Your dotfiles are how you personalize your system. These are mine. The very
 prejudiced mix: OS X, zsh, Ruby, Rails, git, homebrew, rbenv, vim. If you
 match up along most of those lines, you may dig my dotfiles.
 
-I was a little tired of having long alias files and everything strewn about
+>I was a little tired of having long alias files and everything strewn about
 (which is extremely common on other dotfiles projects, too). That led to this
 project being much more topic-centric. I realized I could split a lot of things
 up into the main areas I used (Ruby, git, system libraries, and so on), so I
 structured the project accordingly.
 
-If you're interested in the philosophy behind why projects like these are
+>If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
 subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
+I don't want to use all holman's customizations, but I like his organizational
+structure and Rakefile for symlinking. I've removed most of the configuration
+files, knowing I can bring things back from previous versions. See this [stack overflow question](http://stackoverflow.com/questions/953481/restore-a-deleted-file-in-a-git-repo) for how to pull that off.
+
 ## install
 
-- `git clone git://github.com/holman/dotfiles ~/.dotfiles`
+- `git clone git://github.com/sechilds/dotfiles ~/.dotfiles`
 - `cd ~/.dotfiles`
 - `rake install`
 
