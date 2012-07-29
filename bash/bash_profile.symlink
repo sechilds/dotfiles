@@ -1,0 +1,7 @@
+# bash profile
+# 2012-07-29: file created
+
+# source grc in login shells
+# brew install grc to get this to work
+source "`brew --prefix`/etc/grc.bashrc"
+
