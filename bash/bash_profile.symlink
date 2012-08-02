@@ -2,8 +2,8 @@
 # 2012-07-29: file created
 
 # Set the path variables
-PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin/:usr/sbin:/sbin:/opt/X11/bin";export PATH
-MANPATH="usr/local/sare/man:/usr/share/man:/opt/X11/man";export MANPATH
+PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:usr/sbin:/sbin:/opt/X11/bin";export PATH
+MANPATH="usr/local/share/man:/usr/share/man:/opt/X11/man";export MANPATH
 
 # source grc in login shells
 # brew install grc to get this to work
