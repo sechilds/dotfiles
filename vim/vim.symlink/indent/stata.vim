@@ -1,8 +1,13 @@
-	" Only load this indent file when no other was loaded yet.
-	if exists("b:did_indent")
-	  finish
-	endif
-	let b:did_indent = 1
+" Vim indent file
+" Language: Stata
+" Maintainer:	Stephen Childs
+" Last Change:	2012-06-08
+
+" Only load this indent file when no other was loaded yet.
+if exists("b:did_indent")
+  finish
+endif
+let b:did_indent = 1
 
 set cindent
 set shiftwidth=4
