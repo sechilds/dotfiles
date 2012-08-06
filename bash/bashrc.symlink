@@ -5,6 +5,9 @@
 PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin";export PATH
 MANPATH="/usr/local/share/man:/usr/share/man:/opt/X11/man";export MANPATH
 
+# Color ls
+CLICOLOR=1; export CLICOLOR
+
 # source grc in login shells
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
