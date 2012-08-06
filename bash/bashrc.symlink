@@ -13,3 +13,10 @@ LSCOLORS=Gxfxcxdxbxegedabagacad; export LSCOLORS
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
 
+# hook for the direnv package
+# brew install direnv
+# http://www.direnv.net/direnv.1.html#INSTALL
+# This command must come after rvm, git-prompt and other
+# shell extensions that manipulate your prompt.
+eval `direnv hook $0`
+
