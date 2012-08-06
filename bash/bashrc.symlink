@@ -7,7 +7,7 @@ MANPATH="/usr/local/share/man:/usr/share/man:/opt/X11/man";export MANPATH
 
 # Color ls
 CLICOLOR=1; export CLICOLOR
-LSCOLORS=Gxfxcxdxbxegedabagacad
+LSCOLORS=Gxfxcxdxbxegedabagacad; export LSCOLORS
 
 # source grc in login shells
 # brew install grc to get this to work
