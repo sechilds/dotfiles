@@ -2,12 +2,22 @@
 # 2012-08-06: file created based on bash_profile
 
 # Set the path variables
-PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin";export PATH
+PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$USER/.bin/";export PATH
 MANPATH="/usr/local/share/man:/usr/share/man:/opt/X11/man";export MANPATH
 
 # Color ls
 CLICOLOR=1; export CLICOLOR
 LSCOLORS=Gxfxcxdxbxegedabagacad; export LSCOLORS
+
+# Brett Terpstra's gitlogger
+# http://brettterpstra.com/scatterbrains-git-as-biographer/
+# http://brettterpstra.com/git-logger-revisited/
+# https://gist.github.com/2632346
+# Add current folder to~/.gitlogger with name specified as argument 1
+# For use with gitlogger.sh
+function glog () { 
+	echo "$1:`pwd`" >> ~/.gitlogger
+}
 
 # source grc in login shells
 # brew install grc to get this to work
