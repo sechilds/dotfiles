@@ -1,3 +1,6 @@
+" use pathogen
+call pathogen#infect()
+
 set nocompatible	" choose no compatibility with legacy vi
 syntax enable		" syntax highlighting
 set encoding=utf-8	" use unicode
