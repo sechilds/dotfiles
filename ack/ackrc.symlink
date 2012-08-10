@@ -1,0 +1,6 @@
+# Make Stata files a searchable type
+--type-set=stata=.do,.ado
+
+# Always color
+--color
+
