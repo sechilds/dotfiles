@@ -34,6 +34,16 @@ fi
 # stata alias
 alias stata=stata-se
 
+# quick view file
+# http://www.libertypages.com/clarktech/?p=4231
+alias ql='qlmanage -p "$@" &gt;&amp; /dev/null'
+
+# open in OS X
+# http://www.libertypages.com/clarktech/?p=4231
+alias finder='open .'	# open current directory in finder
+alias safari='open -a "Safari" '	# open file in Safari
+alias preview='open -a "Preview" '	# open file in Preview
+
 # hook for the direnv package
 # brew install direnv
 # http://www.direnv.net/direnv.1.html#INSTALL
