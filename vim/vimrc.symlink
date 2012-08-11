@@ -25,5 +25,7 @@ set ignorecase		" searches are case insensitive
 set smartcase		" ... unless they contain at least one capital letter
 
 "" From Pretty Vim Color Schemes
+"" http://kevin.colyar.net/2011/01/pretty-vim-color-schemes-in-iterm2/
 set t_Co=256
-" colorscheme grb4
+colorscheme grb4
+
