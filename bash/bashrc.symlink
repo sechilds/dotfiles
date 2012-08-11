@@ -25,7 +25,7 @@ source "`brew --prefix`/etc/grc.bashrc"
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
-	. `brew --previx`/etc/bash_completion
+	. `brew --prefix`/etc/bash_completion
 fi
 
 # tmux bash completion - from homebrew
