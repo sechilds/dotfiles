@@ -23,6 +23,14 @@ function glog () {
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
 
+# bash completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+	. `brew --previx`/etc/bash_completion
+fi
+
+# tmux bash completion - from homebrew
+source bash_completion_tmux.sh
+
 # hook for the direnv package
 # brew install direnv
 # http://www.direnv.net/direnv.1.html#INSTALL
