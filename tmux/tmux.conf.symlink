@@ -1,12 +1,21 @@
+# sets prefix to ^A
 set -g prefix C-a
 unbind C-b
+
+# Escape time
 set -sg escape-time 1
+
+# Code to reload tmux configuration file
 bind r source-file ~/.tmux.conf \; display "Reloaded!"
 bind C-a send-prefix
 set -g default-terminal "screen-256color"
+
+# Easy splitting of windows
 bind | split-window -h
 bind - split-window -v
-setw -g mouse-mode on
+
+# Use mouse mode
+setw -g mode-mouse on
 set -g mouse-select-pane on
 set -g mouse-resize-pane on
-set -g mosue-select-window on
+set -g mouse-select-window on
