@@ -14,6 +14,12 @@ set -g default-terminal "screen-256color"
 bind | split-window -h
 bind - split-window -v
 
+# vi-like pane movement commands
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
 # Use mouse mode
 setw -g mode-mouse on
 set -g mouse-select-pane on
