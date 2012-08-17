@@ -44,7 +44,15 @@ alias finder='open .'	# open current directory in finder
 alias safari='open -a "Safari" '	# open file in Safari
 alias preview='open -a "Preview" '	# open file in Preview
 
-# hook for the direnv package
+# fancy prompt
+GIT_PS1_SHOWDIRTYSTATE=true
+PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[36m\]\w\[\033[00m\]\n\!\[\033[31m\]$(__git_ps1)\[\033[00m\] \$ '
+PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
+export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
+
+
+ #hook for the direnv package
+  
 # brew install direnv
 # http://www.direnv.net/direnv.1.html#INSTALL
 # This command must come after rvm, git-prompt and other
