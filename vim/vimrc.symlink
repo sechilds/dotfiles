@@ -53,3 +53,14 @@ else					" fallback
 	nnoremap <silent> <leader>n :set number! number?<CR>
 endif
 
+" Toggle wrapping text.
+function! WrapTextToggle()
+	if (&wrap == 1)
+		set nowrap
+	else
+		set wrap linebreak textwidth=0
+	endif
+endfunc
+nnoremap <silent> <leader>w :call WrapTextToggle()<CR>
+
+	
