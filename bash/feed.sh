@@ -34,24 +34,24 @@ feed() {
 	# The characters "£, §" are used as metacharacters. They should not be encountered in a feed...
 	echo -e "$(echo $rss_source | \
 		sed -e 's/&amp;/\&/g
-	s/&lt;\|&#60;/</g
-	s/&gt;\|&#62;/>/g
-	s/<\/a>/£/g
-	s/href\=\"/§/g
-	s/<title>/\\n\\n\\n   :: '$f_title'/g; s/<\/title>/\\e[00m ::\\n/g
-	s/<link>/ [ '$f_ref'/g; s/<\/link>/\\e[00m ]/g
-	s/<description>/\\n\\n'$f_descr'/g; s/<\/description>/\\e[00m\\n\\n/g
-	s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
-	s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/'$f_bold'/g; s/<\/b>\|<\/strong>/'$f_descr'/g
-	s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/'$f_italic'/g; s/<\/i>\|<\/em>/'$f_descr'/g
-	s/<u\( [^>]*\)\?>/'$f_underline'/g; s/<\/u>/'$f_descr'/g
-	s/<code\( [^>]*\)\?>/'$f_code'/g; s/<\/code>/'$f_descr'/g
-	s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/'$f_linklabel'\2'$f_descr' '$f_formatchrs'['$f_descr' '$f_linkurl'\1'$f_descr''$f_formatchrs' ]'$f_descr'/g
-	s/<li\( [^>]*\)\?>/\n '$f_formatchrs'*'$f_descr' /g
-	s/<!\[CDATA\[\|\]\]>//g
-	s/\|>\s*<//g
-	s/ *<[^>]\+> */ /g
-	s/[<>£§]//g')\n\n";
+		s/&lt;\|&#60;/</g
+		s/&gt;\|&#62;/>/g
+		s/<\/a>/£/g
+		s/href\=\"/§/g
+		s/<title>/\\n\\n\\n   :: '$f_title'/g; s/<\/title>/\\e[00m ::\\n/g
+		s/<link>/ [ '$f_ref'/g; s/<\/link>/\\e[00m ]/g
+		s/<description>/\\n\\n'$f_descr'/g; s/<\/description>/\\e[00m\\n\\n/g
+		s/<p\( [^>]*\)\?>\|<br\s*\/\?>/\n/g
+		s/<b\( [^>]*\)\?>\|<strong\( [^>]*\)\?>/'$f_bold'/g; s/<\/b>\|<\/strong>/'$f_descr'/g
+		s/<i\( [^>]*\)\?>\|<em\( [^>]*\)\?>/'$f_italic'/g; s/<\/i>\|<\/em>/'$f_descr'/g
+		s/<u\( [^>]*\)\?>/'$f_underline'/g; s/<\/u>/'$f_descr'/g
+		s/<code\( [^>]*\)\?>/'$f_code'/g; s/<\/code>/'$f_descr'/g
+		s/<a[^§]*§\([^\"]*\)\"[^>]*>\([^£]*\)[^£]*£/'$f_linklabel'\2'$f_descr' '$f_formatchrs'['$f_descr' '$f_linkurl'\1'$f_descr''$f_formatchrs' ]'$f_descr'/g
+		s/<li\( [^>]*\)\?>/\n '$f_formatchrs'*'$f_descr' /g
+		s/<!\[CDATA\[\|\]\]>//g
+		s/\|>\s*<//g
+		s/ *<[^>]\+> */ /g
+		s/[<>£§]//g')\n\n";
 	# END OF THE RSS PARSER
 
 	if [ -n "$2" ]; then
