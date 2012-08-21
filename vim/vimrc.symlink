@@ -1,5 +1,7 @@
 " use pathogen
 call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 set nocompatible	" choose no compatibility with legacy vi
 syntax enable		" syntax highlighting
