@@ -63,4 +63,15 @@ function! WrapTextToggle()
 endfunc
 nnoremap <silent> <leader>w :call WrapTextToggle()<CR>
 
+" Toggle spell check.
+function! SpellCheckToggle()
+	if ($spell == 1)
+		set nospell
+	else
+		set spell spelllang=en_us
+	endif
+endfunc
+nnoremap <silent> <leader>s :call SpellCheckToggle()<CR>
+
+
 	
