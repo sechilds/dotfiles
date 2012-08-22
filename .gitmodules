@@ -10,3 +10,6 @@
 	path = vim/vim.symlink/bundle/ack.vim
 	url = http://github.com/mileszs/ack.vim.git
 	ignore = dirty
+[submodule "vim/vim.symlink/bundle/tabular"]
+	path = vim/vim.symlink/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
