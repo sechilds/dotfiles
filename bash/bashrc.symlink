@@ -37,6 +37,9 @@ set mark-directories Off
 # stata alias
 alias stata=stata-se
 
+# truecrypt command line alias
+alias truecrypt="/Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt"
+
 # quick view file
 # http://www.libertypages.com/clarktech/?p=4231
 alias ql='qlmanage -p "$@" &gt;&amp; /dev/null'
