@@ -68,6 +68,8 @@ HISTIGNORE='ls:bg:fg:history'
 HISTTIMEFORMAT='%F %T '
 shopt -s cmdhist
 
+# bind the inputrc
+bind -f .inputrc
 
  #hook for the direnv package
   
