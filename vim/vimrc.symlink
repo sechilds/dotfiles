@@ -10,7 +10,7 @@ set showcmd		" display incomplete commands
 
 " recommended for powerline
 set laststatus=2	" always show the statusline
-let g:Powerline_symbols = 'fancy'
+" let g:Powerline_symbols = 'fancy'
 
 let mapleader = ","		" set comma to be the leader
 
