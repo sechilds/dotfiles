@@ -8,6 +8,9 @@ syntax enable		" syntax highlighting
 set encoding=utf-8	" use unicode
 set showcmd		" display incomplete commands
 
+" recommended for powerline
+set laststatus=2	" always show the statusline
+
 let mapleader = ","		" set comma to be the leader
 
 " load file type plugins + indentation
