@@ -8,6 +8,7 @@ syntax enable		" syntax highlighting
 set encoding=utf-8	" use unicode
 set showcmd		" display incomplete commands
 
+
 " recommended for powerline
 set laststatus=2	" always show the statusline
 " let g:Powerline_symbols = 'fancy'
@@ -35,7 +36,14 @@ set smartcase		" ... unless they contain at least one capital letter
 "" From Pretty Vim Color Schemes
 "" http://kevin.colyar.net/2011/01/pretty-vim-color-schemes-in-iterm2/
 set t_Co=256
-colorscheme grb4
+let g:solarized_termcolors=256
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+colorscheme solarized
+" colorscheme grb4
 
 " Relative Absolute Line Number Toggle
 " https://gist.github.com/2947616
