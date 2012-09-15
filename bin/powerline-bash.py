@@ -1,0 +1,1 @@
+bash/powerline-bash/powerline-bash.py
