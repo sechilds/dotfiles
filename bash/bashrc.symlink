@@ -19,6 +19,14 @@ function glog () {
 	echo "$1:`pwd`" >> ~/.gitlogger
 }
 
+# Open man pages in bbedit
+# http://nb.nathanamy.org/2012/09/terminal-productivity/
+function bbm() {
+	cmd=$(tr [a-z] [A-Z] <<< "$1")
+	man $1 | col -b | /usr/local/bin/bbedit --view-top --clean -t "$cmd MANUAL"
+}
+
+
 EDITOR=vim; export EDITOR
 
 # source grc in login shells
@@ -27,7 +35,7 @@ source "`brew --prefix`/etc/grc.bashrc"
 
 # autojump
 if [ -f `brew --prefix`/etc/autojump ]; then
-	`brew --prefix`/etc/autojump
+	. `brew --prefix`/etc/autojump
 fi
 
 # bash completion
