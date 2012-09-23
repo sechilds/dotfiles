@@ -100,3 +100,4 @@ bind -f .inputrc
 # shell extensions that manipulate your prompt.
 eval `direnv hook $0`
 
+source /usr/local/etc/bash_completion.d/password-store
