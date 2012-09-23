@@ -19,6 +19,8 @@ function glog () {
 	echo "$1:`pwd`" >> ~/.gitlogger
 }
 
+EDITOR=vim; export EDITOR
+
 # source grc in login shells
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
