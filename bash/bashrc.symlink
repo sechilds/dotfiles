@@ -25,6 +25,11 @@ EDITOR=vim; export EDITOR
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
 
+# autojump
+if [ -f `brew --prefix`/etc/autojump ]; then
+	`brew --prefix`/etc/autojump
+fi
+
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
 	. `brew --prefix`/etc/bash_completion
