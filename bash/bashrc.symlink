@@ -101,3 +101,6 @@ bind -f .inputrc
 eval `direnv hook $0`
 
 source /usr/local/etc/bash_completion.d/password-store
+
+TZ="/usr/share/zoneinfo/Canada/Eastern"; export TZ
+
