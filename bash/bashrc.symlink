@@ -102,5 +102,7 @@ eval `direnv hook $0`
 
 source /usr/local/etc/bash_completion.d/password-store
 
+source /usr/local/share/python/virtualenvwrapper.sh
+
 TZ="/usr/share/zoneinfo/Canada/Eastern"; export TZ
 
