@@ -22,4 +22,4 @@
 	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bash/powerline-bash"]
 	path = bash/powerline-bash
-	url = git://github.com/milkbikis/powerline-bash.git
+	url = git://github.com/sechilds/powerline-bash.git
