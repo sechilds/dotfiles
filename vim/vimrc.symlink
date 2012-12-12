@@ -86,6 +86,11 @@ function! SpellCheckToggle()
 endfunc
 nnoremap <silent> <leader>s :call SpellCheckToggle()<CR>
 
+" Dollar sign at the end of a change
+" (See the vim tutorial).
+" https://vimeo.com/album/2183821/video/6329762
+set cpoptions+=$
+
 " Commenting blocks of code
 autocmd FileType c,cpp,java,scala,stata		let b:comment_leader = '// '
 autocmd FileType sh,ruby,python				let b:comment_leader = '# '
