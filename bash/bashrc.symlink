@@ -29,6 +29,9 @@ function bbm() {
 
 EDITOR=vim; export EDITOR
 
+# vi editing mode
+set -o vi
+
 # source grc in login shells
 # brew install grc to get this to work
 source "`brew --prefix`/etc/grc.bashrc"
