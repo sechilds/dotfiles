@@ -18,12 +18,12 @@ set SWITCH(prefix) 3	;# turn on prefix elision
 
 # if your terminal supports 256 colors, these may be preferable
 # For other color codes, see colortest (http://www.vim.org/scripts/script.php?script_id=1349).
-array set STYLE {
-    file ";38;5;28"  dir ";38;5;20"
-    relrec,file ";38;5;202" relrec,dir ";38;5;202"
-    warning ";38;5;196"
-    post ";38;5;232"
-}
+#array set STYLE {
+#    file ";38;5;28"  dir ";38;5;20"
+#    relrec,file ";38;5;202" relrec,dir ";38;5;202"
+#    warning ";38;5;196"
+#    post ";38;5;232"
+#}
 
 
 # add names to highlight or not show at all
