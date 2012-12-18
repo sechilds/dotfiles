@@ -22,6 +22,7 @@
 	pager = less -R
 	editor = vim
 	safecrlf = true
+	autocrlf = input
 [alias]
 	olog = log --oneline --decorate --graph --all
 	nolog = !git --nopager log --oneline --decorate --graph --all -n5
