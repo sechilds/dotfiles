@@ -1,31 +1,6 @@
-2012-12-14 07:00:17,809 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.DeSjZoDg
-2012-12-14 07:00:17,813 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2012-12-14 12:58:25,903 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2012-12-14 12:58:25,920 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2012-12-14 12:58:25,927 DEBUG virtualenvwrapper.user_scripts pre_activate
-2012-12-14 12:58:25,928 DEBUG virtualenvwrapper.user_scripts running ['/Users/sechilds/.virtualenvs/preactivate', 'database2']
-2012-12-14 12:58:25,934 DEBUG virtualenvwrapper.user_scripts running ['/Users/sechilds/.virtualenvs/database2/bin/preactivate', 'database2']
-2012-12-14 12:58:25,940 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-pre_activate-hook-XXXXXXXXXX.4Cm20LjF
-2012-12-14 12:58:26,101 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2012-12-14 12:58:26,106 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-post_activate-hook-XXXXXXXXXX.essSBjnc
-2012-12-14 12:58:26,106 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2012-12-14 12:58:26,110 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2012-12-14 12:58:26,112 DEBUG virtualenvwrapper.user_scripts post_activate
-2012-12-14 13:00:09,185 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2012-12-14 13:00:09,192 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2012-12-14 13:00:09,198 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2012-12-14 13:00:09,200 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.XxinVY24
-2012-12-14 13:00:09,201 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2012-12-14 22:37:00,879 DEBUG virtualenvwrapper.hook_loader Running pre_deactivate hooks
-2012-12-14 22:37:00,895 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_deactivate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-pre_deactivate-hook-XXXXXXXXXX.7ZFDad6D
-2012-12-14 22:37:00,896 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_deactivate_source')
-2012-12-14 22:37:00,903 DEBUG virtualenvwrapper.user_scripts pre_deactivate
-2012-12-14 22:37:01,044 DEBUG virtualenvwrapper.hook_loader Running post_deactivate hooks
-2012-12-14 22:37:01,049 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_deactivate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-post_deactivate-hook-XXXXXXXXXX.GFKUYWMr
-2012-12-14 22:37:01,049 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_deactivate_source')
-2012-12-14 22:37:01,053 DEBUG virtualenvwrapper.user_scripts post_deactivate
-2012-12-15 08:43:51,770 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2012-12-15 08:43:51,787 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2012-12-15 08:43:51,803 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2012-12-15 08:43:51,805 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.OCUxD3MK
-2012-12-15 08:43:51,806 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2012-12-18 16:07:04,602 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-pre_activate-hook-XXXXXXXXXX.sPbzk42J
+2012-12-18 16:07:04,766 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
+2012-12-18 16:07:04,771 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-post_activate-hook-XXXXXXXXXX.Skzjo4To
+2012-12-18 16:07:04,771 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
+2012-12-18 16:07:04,775 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
+2012-12-18 16:07:04,778 DEBUG virtualenvwrapper.user_scripts post_activate
