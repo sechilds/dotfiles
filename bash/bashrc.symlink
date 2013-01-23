@@ -53,7 +53,9 @@ fi
 set mark-directories Off
 
 # update aliases
-alias update-aliases="wget -q -) - \"$@\" https://alias.sh/user/1410/alias > ~/.dotfiles/bash/alias_sh.symlink && source ~/.alias_sh
+alias update-aliases="wget -q -O - \"$@\"
+https://alias.sh/user/1410/alias > ~/.dotfiles/bash/alias_sh.symlink &&
+source ~/.alias_sh"
 
 # stata alias
 alias stata=stata-se
