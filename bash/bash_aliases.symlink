@@ -1,0 +1,6 @@
+# bash aliases
+if [ -f ~/.alias_sh ]; then
+. ~/.alias_sh
+fi
+
+
