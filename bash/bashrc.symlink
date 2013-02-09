@@ -63,7 +63,7 @@ alias truecrypt="/Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt"
 
 # quick view file
 # http://www.libertypages.com/clarktech/?p=4231
-alias ql='qlmanage -p "$@" &gt;&amp; /dev/null'
+alias ql='qlmanage -p >& /dev/null'
 
 # open in OS X
 # http://www.libertypages.com/clarktech/?p=4231
@@ -78,7 +78,7 @@ fi
 # powerline-bash
 function _update_ps1()
 {
-	export PS1="$(~/.dotfiles/bash/powerline-bash/powerline-bash.py $?)"
+	export PS1="$(~/.dotfiles/bash/powerline-bash/powerline-bash.py $?)$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")"
 }
 # fancy prompt
 # GIT_PS1_SHOWDIRTYSTATE=true
@@ -140,4 +140,7 @@ fi
 
 
 TZ="/usr/share/zoneinfo/Canada/Eastern"; export TZ
+
+PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+
 
