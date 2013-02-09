@@ -71,6 +71,12 @@ alias finder='open .'	# open current directory in finder
 alias safari='open -a "Safari" '	# open file in Safari
 alias preview='open -a "Preview" '	# open file in Preview
 
+# cd to the path of the front Finder window
+cdf() {
+	target=`osascript -e 'tell application "Finder" to get POSIX path of (target of front Finder window as text)'`
+	cd "$target"
+}
+
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
@@ -113,7 +119,7 @@ function clip() {
 
 
 # bind the inputrc
-bind -f .inputrc
+bind -f ~/.inputrc
 
  #hook for the direnv package
   
