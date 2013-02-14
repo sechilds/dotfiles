@@ -1,42 +1,59 @@
-2013-02-08 09:31:59,292 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.XXU2VFU8
-2013-02-08 09:31:59,293 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:29:20,609 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:29:20,635 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:29:20,646 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:29:20,649 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.0nNK4GZL
-2013-02-08 16:29:20,650 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:29:22,494 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:29:22,506 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:29:22,514 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:29:22,516 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.13rloSmp
-2013-02-08 16:29:22,517 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:02,284 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:02,288 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:02,294 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:02,310 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:02,328 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:02,330 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.HgCO0ve6
-2013-02-08 16:30:02,330 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:02,336 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:02,338 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.dFvIoh8W
-2013-02-08 16:30:02,339 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:03,752 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:03,775 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:03,785 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:03,792 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:03,792 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:03,796 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.TehegqdO
-2013-02-08 16:30:03,805 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:03,805 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:03,807 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.ZLADT70J
-2013-02-08 16:30:03,807 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:05,385 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:05,401 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-02-08 16:30:05,403 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:05,411 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:05,413 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-02-08 16:30:05,413 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.I81lF6KK
-2013-02-08 16:30:05,413 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-02-08 16:30:05,430 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-02-08 16:30:05,432 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.12cYRF7r
-2013-02-08 16:30:05,432 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-11 08:31:44,033 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-12 12:09:15,788 DEBUG virtualenvwrapper.hook_loader Running pre_deactivate hooks
+2013-02-12 12:09:15,803 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_deactivate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-pre_deactivate-hook-XXXXXXXXXX.BFQ61qKr
+2013-02-12 12:09:15,804 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_deactivate_source')
+2013-02-12 12:09:15,812 DEBUG virtualenvwrapper.user_scripts pre_deactivate
+2013-02-12 12:09:15,947 DEBUG virtualenvwrapper.hook_loader Running post_deactivate hooks
+2013-02-12 12:09:15,952 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_deactivate hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-post_deactivate-hook-XXXXXXXXXX.G2PtKmu0
+2013-02-12 12:09:15,952 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_deactivate_source')
+2013-02-12 12:09:15,956 DEBUG virtualenvwrapper.user_scripts post_deactivate
+2013-02-12 19:07:33,756 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-12 19:07:33,815 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-12 19:07:33,848 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-12 19:07:33,850 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.u0crS3yq
+2013-02-12 19:07:33,851 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-12 19:07:34,267 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-12 19:07:34,301 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-12 19:07:34,309 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-12 19:07:34,311 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.sj4CpAUP
+2013-02-12 19:07:34,311 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-13 06:23:34,922 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-13 06:23:34,922 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-13 06:23:34,988 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-13 06:23:34,986 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-13 06:23:35,022 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-13 06:23:35,023 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-13 06:23:35,037 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.sUUTPCxH
+2013-02-13 06:23:35,038 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-13 06:23:35,039 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.grhVaTBq
+2013-02-13 06:23:35,040 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-13 07:30:08,588 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-13 07:30:08,595 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-13 07:30:08,609 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-13 07:30:08,613 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-13 07:30:08,632 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-13 07:30:08,634 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.FQJK3Pm9
+2013-02-13 07:30:08,634 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-13 07:30:08,635 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-13 07:30:08,636 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.LpTiLiSa
+2013-02-13 07:30:08,637 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-13 13:27:55,953 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-13 13:27:55,973 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-13 13:27:55,983 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-13 13:27:55,987 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.sEXtpeHv
+2013-02-13 13:27:55,987 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-14 06:22:26,498 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-14 06:22:26,515 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-14 06:22:26,530 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-14 06:22:26,532 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.b0akCfhE
+2013-02-14 06:22:26,532 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-14 07:39:11,732 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-14 07:39:11,803 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-14 07:39:11,839 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-14 07:39:11,844 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.RDWHmeHJ
+2013-02-14 07:39:11,844 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-02-14 08:07:31,962 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2013-02-14 08:07:31,978 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
+2013-02-14 08:07:31,994 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
+2013-02-14 08:07:31,996 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /var/folders/xj/260k5nd14sb4dyr6fhhf04fm0000gn/T/virtualenvwrapper-initialize-hook-XXXXXXXXXX.hyoqyKLX
+2013-02-14 08:07:31,996 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
