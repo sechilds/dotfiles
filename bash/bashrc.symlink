@@ -29,8 +29,8 @@ function bbm() {
 
 EDITOR=vim; export EDITOR
 
-# vi editing mode
-set -o vi
+# vi editing mode -- leaving it emacs for now
+# set -o vi
 
 # source grc in login shells
 # brew install grc to get this to work
