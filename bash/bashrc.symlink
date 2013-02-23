@@ -135,7 +135,7 @@ eval `direnv hook $0`
 
 source /usr/local/etc/bash_completion.d/password-store
 
-source /usr/local/bin/setup_completeme_key_binding.sh
+source /usr/local/share/python/setup_completeme_key_binding.sh
 
 # Setting up the VirtualEnv
 export WORKON_HOME=$HOME/.virtualenvs
