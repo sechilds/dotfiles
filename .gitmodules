@@ -23,3 +23,6 @@
 [submodule "bash/powerline-bash"]
 	path = bash/powerline-bash
 	url = git://github.com/sechilds/powerline-bash.git
+[submodule "vim/vim.symlink/bundle/gitgutter"]
+	path = vim/vim.symlink/bundle/gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
