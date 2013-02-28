@@ -2,4 +2,7 @@ vim/vim.symlink/.netrwhist
 *.swp
 hook*
 python/virtualenvs.symlink/trello1/
+python/virtualenvs.symlink/hook.log
+python/virtualenvs.symlink/hook.log.1
+
 
