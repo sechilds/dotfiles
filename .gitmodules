@@ -26,3 +26,6 @@
 [submodule "vim/vim.symlink/bundle/gitgutter"]
 	path = vim/vim.symlink/bundle/gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "vim/vim.symlink/bundle/multiedit"]
+	path = vim/vim.symlink/bundle/multiedit
+	url = git@github.com:hlissner/vim-multiedit.git
