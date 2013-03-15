@@ -122,6 +122,40 @@ function clip() {
 # # of duplicates in the Open With submenu.
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
 
+# Some stuff from http://brettterpstra.com/2013/03/14/more-command-line-handiness/
+
+
+# ls archives (inspired by `extract`)
+lsz() {
+	if [ $# -ne 1 ]
+	then
+		echo "lsz filename.[tar,tgz,gz,zip,etc]"
+		return 1
+	fi
+	if [ -f $1 ] ; then
+		case $1 in
+			*.tar.bz2|*.tar.gz|*.tar|*.tbz2|*.tgz) tar tvf $1;;
+			*.zip)  unzip -l $1;;
+			*)      echo "'$1' unrecognized." ;;
+		esac
+	else
+		echo "'$1' is not a valid file"
+	fi
+}
+
+
+alias psgrep="ps Ao pid,comm|ruby -e 'puts STDIN.read.gsub(/^ *(\d+) .*?([^\/]+?$)/,\"\\\1: \\\2\")'|grep -iE"
+
+
+# Select the current directory in launchbar, optionally a file
+lb () {
+	if [[ $# = 1 ]]; then
+		[[ -e "$(pwd)/$1" ]] && open "x-launchbar:select?file=$(pwd)/$1" || open "x-launchbar:select?file=$1"
+	else
+		open "x-launchbar:select?file=$(pwd)"
+	fi
+}
+
 # bind the inputrc
 bind -f ~/.inputrc
 
