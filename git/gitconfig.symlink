@@ -6,6 +6,7 @@
 	status = auto
 	branch = auto
 	ui = true
+	uo = true
 [color "diff"]
 	meta = yellow
 	frag = cyan
@@ -26,6 +27,8 @@
 [alias]
 	olog = log --oneline --decorate --graph --all
 	nolog = !git --nopager log --oneline --decorate --graph --all -n5
+	plog = log --abbrev-commit --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold white)<%an>%Creset'
+	lol = log --graph --abbrev=4 --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %Cgreen%ai %n %C(bold white)%an%Creset %B'
 	switch = !legit switch \"$@\"
 	branches = !legit branches
 	sprout = !legit sprout \"$@\"

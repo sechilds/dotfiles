@@ -86,6 +86,8 @@ function! SpellCheckToggle()
 endfunc
 nnoremap <silent> <leader>s :call SpellCheckToggle()<CR>
 
+:nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
+
 " Dollar sign at the end of a change
 " (See the vim tutorial).
 " https://vimeo.com/album/2183821/video/6329762
