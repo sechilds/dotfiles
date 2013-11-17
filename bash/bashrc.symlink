@@ -9,6 +9,10 @@ MANPATH="/usr/local/share/man:/usr/share/man:/opt/X11/man";export MANPATH
 CLICOLOR=1; export CLICOLOR
 LSCOLORS=Gxfxcxdxbxegedabagacad; export LSCOLORS
 
+# Animate Lolcommits
+LOLCOMMITS_ANIMATE=3; export LOLCOMMITS_ANIMATE
+LOLCOMMITS_FORK=1; export LOLCOMMITS_FORK
+
 # Brett Terpstra's gitlogger
 # http://brettterpstra.com/scatterbrains-git-as-biographer/
 # http://brettterpstra.com/git-logger-revisited/
@@ -182,7 +186,7 @@ eval `direnv hook $0`
 
 source /usr/local/etc/bash_completion.d/password-store
 
-source /usr/local/share/python/setup_completeme_key_binding.sh
+#source /usr/local/share/python/setup_completeme_key_binding.sh
 
 # Setting up the VirtualEnv
 export WORKON_HOME=$HOME/.virtualenvs
@@ -191,15 +195,16 @@ export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
 
-if [[ -r /usr/local/share/python/virtualenvwrapper.sh ]]; then
-	source /usr/local/share/python/virtualenvwrapper.sh
-else
-	echo "WARNING: Can't find virtualenvwrapper.sh"
-fi
+#if [[ -r /usr/local/lib/python2.7/site-packages/virtualenvwrapper.sh ]]; then
+#	source /usr/local/lib/python/virtualenvwrapper.sh
+#else
+#	echo "WARNING: Can't find virtualenvwrapper.sh"
+#fi
 
 
 TZ="/usr/share/zoneinfo/Canada/Eastern"; export TZ
 
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
+function pss() { PROMPT_COMMAND=""; PS1="\[\033[01;34m\]\W$\[\033[00m\] "; }
 
